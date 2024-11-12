@@ -1,3 +1,3 @@
 <?php
-    echo "Hello, World! NC";
+    echo "Hello, World! NC  ";
 ?>
