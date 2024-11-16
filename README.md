@@ -27,28 +27,40 @@ To clone the repository.
 # How to Clone and Run
 ## Step 1: Clone the Repository
 To clone this repository to your local machine:
+
 git clone https://github.com/alenac07/hello-world-php.git
+
 cd hello-world-php
 # Step 2: Run Locally (Optional)
 To test the application without Docker, ensure PHP is installed and run:
+
 php -S localhost:8080
+
 Access the app in your browser at:
+
 👉 http://localhost:8080
 # Docker Deployment 🚀
 # Build and Tag the Docker Image
 To create a Docker image for the application:
+
 docker build -t helloworld-php .
+
 docker tag helloworld-php alenac07/helloworld-php:latest
 # Push to Docker Hub
 To upload the image to Docker Hub:
+
 docker push alenac07/helloworld-php:latest
 # Run the Container
 Run the containerized app with:
+
 docker run -d -p 8080:80 alenac07/helloworld-php:latest
+
 Access the app in your browser at:
+
 👉 http://localhost:8080
 # Docker Hub 📦
 Find the Dockerized app here:
+
 👉 Docker Hub: https://hub.docker.com/r/alenac07/helloworld-php
 # Notes 📝
 This simple project demonstrates the ease of containerizing PHP applications. It's perfect for beginners looking to explore Docker with PHP.
