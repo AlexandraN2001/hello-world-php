@@ -18,12 +18,16 @@ hello-world-php/
 ├── index.php           # Main PHP application file
 # Requirements 📋
 To build and run this project locally or with Docker, you will need:
+
 -PHP 🐘
 Installed in your local environment for direct execution.
+
 -Docker 🐳
 For building and running the container.
+
 -Git
 To clone the repository.
+
 # How to Clone and Run
 ## Step 1: Clone the Repository
 To clone this repository to your local machine:
